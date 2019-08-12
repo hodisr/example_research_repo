@@ -10,9 +10,7 @@ def test_model():
     data = DummyProcessor.load_from_files(features_path=sample_features_path, targets_path=sample_targets_path)
     model = load_model(sample_model_path)
     score = train_model(data, model)
-    if score < MIN_SCORE_THRESHOLD:
-        return False
-    return True
+    return score < MIN_SCORE_THRESHOLD
 
 
 if __name__ == '__main__':
