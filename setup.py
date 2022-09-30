@@ -12,7 +12,7 @@ setup(name='iguazio_example',
       description="An example repository",
       packages=find_packages(),
       install_requires=[
-            'joblib==0.13.2',
+            'joblib==1.2.0',
             'numpy==1.17.0',
             'pandas==0.25.0',
             'pyarrow==0.14.1',
