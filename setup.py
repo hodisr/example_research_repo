@@ -19,7 +19,7 @@ setup(name='iguazio_example',
             'python-dateutil==2.8.0',
             'pytz==2019.2',
             'scikit-learn==0.21.3',
-            'scipy==1.3.1',
+            'scipy==1.10.0',
             'six==1.12.0',
             'xgboost==0.90',
       ],)
